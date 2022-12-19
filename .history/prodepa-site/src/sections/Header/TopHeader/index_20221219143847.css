@@ -1,0 +1,15 @@
+.topHeaderContainer {
+    background-color: #F8F9FA ;
+    padding: .4rem .2rem;
+    display: flex;
+}
+
+.leftArea {
+    background-color: aqua;
+}
+.MIddleArea {
+    background-color: rgb(255, 0, 0);
+}
+.leftArea {
+    background-color: aqua;
+}
