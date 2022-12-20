@@ -6,4 +6,10 @@
     border: none;
     border-radius: 1rem;
     width: 115px;
+    cursor: pointer;
+    transition: ease .2s;
+}
+
+.topHeaderButton:hover{
+    background-color: #555;
 }
