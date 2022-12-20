@@ -1,0 +1,10 @@
+.linksSection-ul {
+    padding: 5px;
+    justify-content: start;
+}
+
+.linksSection-a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 300;
+}
