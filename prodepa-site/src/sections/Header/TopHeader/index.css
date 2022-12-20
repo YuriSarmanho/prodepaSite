@@ -2,10 +2,22 @@
   background-color: #f8f9fa;
   padding: 0.4rem 0.2rem;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .middleArea {
+  width: 33.3%;
   display: flex;
   justify-content: start;
 }
+.leftArea {
+  display: flex;
+  padding-left: 4rem ;
+  width: 20%;
+}
+.rightArea {
+  display: flex;
+  width: 33.3%;
+}
+
+

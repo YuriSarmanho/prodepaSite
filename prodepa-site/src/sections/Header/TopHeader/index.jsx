@@ -15,7 +15,7 @@ function TopHeader() {
         <LinksSection children={"Alto Contraste"}/>
         <LinksSection children={"Mapa do Site"}/>
       </div>
-      <div className="rightArea">Right</div>
+      <div className="rightArea"></div>
        
     </div>
   )
