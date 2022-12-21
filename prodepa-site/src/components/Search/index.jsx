@@ -1,13 +1,15 @@
-import React from 'react'
-import './index.css'
+import React from "react";
+import SearchButton from "../Buttons/SearchButton";
+import SearchInput from "../SearchInput";
+import "./index.css";
 
-function SearchInput() {
+function Search() {
   return (
-    <>
-    <input className='searchInput' typeof='text' placeholder='pesquisar...'/>
-    
-    </>
-  )
+    <div className="searchContainer">
+      <SearchInput />
+      <SearchButton children={"buscar"} />
+    </div>
+  );
 }
 
-export default SearchInput
+export default Search;

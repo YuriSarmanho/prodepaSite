@@ -6,6 +6,8 @@
 .middleArea-middleHeader {
     width: 33.3%;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .leftArea-middleHeader {
     display: flex;
