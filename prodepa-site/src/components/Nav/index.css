@@ -1,0 +1,20 @@
+.headerNav {
+     display: flex;
+}
+
+.headerNav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.headerNav-a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 .5em;
+    cursor: pointer;
+    transition: ease .2s;
+}
+.headerNav-a:hover {
+    color: #a3c3dc;
+}

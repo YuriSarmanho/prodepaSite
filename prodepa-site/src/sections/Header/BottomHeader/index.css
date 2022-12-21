@@ -1,4 +1,22 @@
 .bottomHeaderContainer {
     background-color: #0073C8;
-    height: 2rem;
+    height: 3rem;
+    display: flex;
 }
+  .middleArea-bottomHeader {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftArea-bottomHeader {
+    display: flex;
+    padding-left: 4rem;
+    width: 40%;
+    align-items: center;
+  }
+  .rightArea-bottomHeader {
+    display: flex;
+    width: 33.3%;
+    align-items: center;
+  }

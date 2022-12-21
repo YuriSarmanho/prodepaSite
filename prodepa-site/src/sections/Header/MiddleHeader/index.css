@@ -1,20 +1,30 @@
 .middleHeaderContainer {
-    height: 6rem;
-    display: flex;
+  height: 10rem;
+  display: flex;
 }
 
 .middleArea-middleHeader {
-    width: 33.3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .leftArea-middleHeader {
-    display: flex;
-    padding-left: 4rem;
-    width: 20%;
-  }
-  .rightArea-middleHeader {
-    display: flex;
-    width: 33.3%;
-  }
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftArea-middleHeader {
+  display: flex;
+  padding-left: 4rem;
+  width: 20%;
+  align-items: center;
+}
+.rightArea-middleHeader {
+  display: flex;
+  width: 33.3%;
+  align-items: center;
+}
+
+.logoSic {
+  height: 2.3em;
+}
+
+.logoProdepa {
+  height: 6em;
+}
