@@ -6,18 +6,23 @@
 }
 
 .middleArea {
-  width: 33.3%;
+  width: auto;
   display: flex;
   justify-content: start;
 }
 .leftArea {
   display: flex;
   padding-left: 4rem;
-  width: 20%;
+  width: auto;
 }
 .rightArea {
   display: flex;
-  width: 33.3%;
+  width: auto;
 }
 
+@media (max-width: 800px) {
+  .topHeaderContainer {
+    display: none;
+  }
+}
 

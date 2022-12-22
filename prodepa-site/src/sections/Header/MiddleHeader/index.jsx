@@ -2,6 +2,7 @@ import React from "react";
 import LogoProdepa from "../../../img/logoProdepa2022_0_0.png";
 import LogoSic from "../../../img/sicpa.png";
 import SearchInput from "../../../components/Search";
+import HamburguerMenu from "../../../components/HamburguerMenu";
 import "./index.css";
 
 function MiddleHeader() {
@@ -15,6 +16,7 @@ function MiddleHeader() {
       </div>
       <div className="rightArea-middleHeader">
         <img className="logoSic" src={LogoSic} alt="Logo SIC" />
+        <HamburguerMenu/>
       </div>
     </div>
   );

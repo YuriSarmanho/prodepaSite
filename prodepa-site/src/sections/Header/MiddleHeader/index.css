@@ -4,7 +4,8 @@
 }
 
 .middleArea-middleHeader {
-  width: 33.3%;
+  width: auto;
+  margin: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +13,12 @@
 .leftArea-middleHeader {
   display: flex;
   padding-left: 4rem;
-  width: 20%;
+  width: auto;
   align-items: center;
 }
 .rightArea-middleHeader {
   display: flex;
-  width: 33.3%;
+  width: auto;
   align-items: center;
 }
 
@@ -27,4 +28,16 @@
 
 .logoProdepa {
   height: 6em;
+}
+
+@media (max-width: 800px) {
+  .logoSic {
+    display: none;
+  }
+  .rightArea-middleHeader {
+    justify-content: end;
+  }
+  .middleHeaderContainer {
+    justify-content: space-around;
+  }
 }

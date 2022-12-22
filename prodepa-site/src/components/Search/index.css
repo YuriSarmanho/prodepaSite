@@ -1,3 +1,9 @@
 .searchContainer {
     height: 2.3em;
 }
+
+@media(max-width:800px) {
+    .searchContainer {
+        display: none;
+    }
+}

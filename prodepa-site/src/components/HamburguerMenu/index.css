@@ -1,0 +1,22 @@
+.hamburguerMenu {
+  display: none;
+}
+
+.hamburguerMenu svg {
+  font-size: 4em;
+  color: #000;
+}
+
+.hamburguerMenu {
+  justify-content: end;
+}
+.hamburguerMenu-button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@media (max-width: 800px) {
+  .hamburguerMenu {
+    display: flex;
+  }
+} 
